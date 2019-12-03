@@ -2,7 +2,7 @@ import React from 'react';
 
 function App() {
 	var nom = 'Ambarki',
-		prenom = 'Youssef',
+		prenom = 'Amine',
 		welcomeMessage = 'Bonjour',
 		fullMessage = `${welcomeMessage} ${nom} ${prenom}`;
 
