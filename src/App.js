@@ -1,4 +1,5 @@
 import React from 'react';
+import MapSample from './exemple1-javascript-mix-html';
 
 function App() {
 	var nom = 'Ambarki',
@@ -6,7 +7,12 @@ function App() {
 		welcomeMessage = 'Bonjour',
 		fullMessage = `${welcomeMessage} ${nom} ${prenom}`;
 
-	return <h2>{fullMessage}</h2>;
+	return (
+		<div>
+			<h2>{fullMessage}</h2>
+			<MapSample />
+		</div>
+	);
 }
 
 export default App;
